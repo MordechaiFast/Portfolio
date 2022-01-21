@@ -25,5 +25,5 @@ def blog_detail(request, pk):
                 post=post
             )
             comment.save()
-    context = {'post': post, 'comments': comments}
+    context = {'post': post, 'comments': comments, 'form': form}
     return render(request, 'blog_detail.html', context)
