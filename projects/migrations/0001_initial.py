@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=100)),
                 ('description', models.TextField()),
                 ('technology', models.CharField(max_length=30)),
-                ('link', models.FilePathField(allow_folders=True)),
             ],
         ),
     ]
+                #('link', models.FilePathField(allow_folders=True)),
